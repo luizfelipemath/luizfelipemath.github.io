@@ -37,3 +37,17 @@ footer{
 ul {
       padding-left: 40px;
     }
+
+a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px dotted #003366;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+    color: #800000;
+    border-bottom: 1px solid #800000;
+    text-decoration: none;
+}
