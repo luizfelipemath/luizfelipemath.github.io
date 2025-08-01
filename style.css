@@ -36,9 +36,33 @@ main{
     width: 60%;
 }
 
+h2 {
+    margin-bottom: -0.5rem;
+}
+
 .subsection{
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-bottom: -0.5rem;
+}
+
+.subsection:last-child {
+    margin-bottom: 0;
+}
+
+
+.subsection p,
+.subsection ul {
+    margin-bottom: 0.2rem;
+}
+
+/*.subsection p:last-child,
+.subsection ul:last-child {
+    margin-bottom: 0;
+}*/
+
+.subsection ul li {
+    margin-bottom: 0.2rem;
 }
 
 
